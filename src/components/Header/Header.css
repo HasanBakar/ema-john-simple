@@ -1,4 +1,21 @@
 .header {
     height: 80px;
     background-color: #1C2B35;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 30px;
+    align-items: center;
+}
+
+nav.header a {
+    text-decoration: none;
+    margin-left: 35px;
+    color: white;
+}
+
+nav.header a:hover {
+    color: orange;
+    font-weight: 600;
+    font-style: oblique;
 }
