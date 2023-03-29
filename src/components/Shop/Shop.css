@@ -2,3 +2,10 @@
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
+
+.products_container {
+    margin: 40px 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
